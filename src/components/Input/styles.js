@@ -6,7 +6,6 @@ justify-content: center;
 flex-direction: space-between;
 width: 515px;
 height: 68px;
-border : 1px solid red;
 margin-top: 20px;
 background: #FFFFFF;
 opacity: 0.6;

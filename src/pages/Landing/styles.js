@@ -9,6 +9,7 @@ align-items: center;
 justify-content: center;
 min-width: 600px;
 width: 100%;
+
 `
 
 export const TwoTitle = styled.div`
@@ -48,6 +49,18 @@ width: 555px;
 justify-content: center;
 align-items: center;
 
+
+`
+export const ImgLine = styled.img`
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+position: absolute;
+top: 10px;
+left: 600px;
+right: 0;
+z-index: 5;
 
 `
 export const Container1 = styled.div`
@@ -153,5 +166,9 @@ display: flex;
 align-items: center;
 justify-content: center;
 border: 1px solid yellow;
-
+`
+export const ContainerArticle = styled.div`
+display: flex;
+justify-content: space-between;
+align-items: center;
 `

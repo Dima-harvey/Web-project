@@ -145,3 +145,12 @@ export const LinkWrapper1 = styled.div`
     flex-direction: column;
   }
 `
+export const ContainerArticle = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+`
+export const ContainerOut = styled.div`
+  display: flex;
+  justify-content: flex-end;
+`
