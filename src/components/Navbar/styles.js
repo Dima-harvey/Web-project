@@ -6,7 +6,6 @@ export const Button = styled.button`
   padding: 0.8rem 1.1rem;
   color: #fff;
   border-radius: 1rem;
-  box-shadow: 0px 13px 24px -7px #ecb6d7;
   transition: all 0.3s ease-in-out;
   margin-left: 0.5rem;
   cursor: pointer;
@@ -30,8 +29,7 @@ export const MenuLink = styled.a`
   font-weight: 500;
 
   &:hover {
-    color: #7781d4;
-    background: #e7e9fc;
+    color: rgba(33, 94, 233, 1);;
   }
 `
 
@@ -60,8 +58,7 @@ export const Container = styled.div`
     font-weight: 500;
 
     &:hover {
-      color: #7781d4;
-      background: #e7e9fc;
+      color: rgba(33, 94, 233, 1);
     }
   }
   h1 {
@@ -83,7 +80,7 @@ export const Nav = styled.div`
   top: 0;
   left: 0;
   right: 0;
-  z-index: 3;
+  z-index: 7;
 `
 export const LogoRegist = styled.div`
   display: flex;
@@ -95,15 +92,12 @@ export const Menu = styled.div`
   align-items: center;
   position: relative;
   @media (max-width: 1000px) {
-    background-color:  rgba(33, 94, 233, 1);
     @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
       -webkit-backdrop-filter: blur(35px);
       backdrop-filter: blur(15px);
-      background-color: rgba(255, 255, 255, 0.4);
     }
     border-radius: 1rem;
     margin-top: 1rem;
-    box-shadow: -4px 8px 15px 1px rgba(0, 0, 0, 0.07);
     overflow: hidden;
     flex-direction: column;
     max-height: ${({ isOpen }) => (isOpen ? '350px' : '0')};
@@ -128,7 +122,7 @@ export const Hamburger = styled.div`
   span {
     height: 2px;
     width: 25px;
-    background: #f774c5;
+    background: black;
     margin-bottom: 4px;
     border-radius: 5px;
   }

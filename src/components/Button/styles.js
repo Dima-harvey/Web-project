@@ -10,12 +10,7 @@ export const Buttons = styled.button`
   transition: all 0.3s ease-in-out;
   margin-left: 0.5rem;
   cursor: pointer;
-  &:hover {
-    box-shadow: 0px 17px 16px -11px #ecb6d7;
-    transform: translateY(-5px);
-  }
-
-  @media (max-width: 670px) {
+   @media (max-width: 670px) {
     /* width: 100%; */
     padding: 0.3;
   }
